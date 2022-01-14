@@ -8,3 +8,12 @@ ln -s -f "$(pwd)/dotfiles/.zshrc" "$HOME/.zshrc"
 else
 echo "existing .zshrc file not found"
 fi
+
+# creating symlink for kitty
+KITTY_CONFIG="$(pwd)/dotfiles/kitty"
+if [ -d $KITTY_CONFIG ] 
+then
+ln -s -f "$(pwd)/dotfiles/kitty" "$HOME/.config/"
+else 
+echo "directory for kitty config not found"
+fi
