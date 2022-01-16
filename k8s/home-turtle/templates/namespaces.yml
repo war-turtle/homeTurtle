@@ -1,4 +1,7 @@
+{{ range $ele := .Values.namespaces }}
+---
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: {{ index .Values "monitoring-stack" "namespaceOverride" }}
+  name: {{$ele}} 
+{{end}}

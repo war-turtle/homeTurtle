@@ -4,8 +4,8 @@ description: A Helm chart for maintaining my home server
 type: application
 version: 0.1.0
 appVersion: "0.1.0"
-dependencies:
-  - name: kube-prometheus-stack
-    version: 30.0.1
-    repository: https://prometheus-community.github.io/helm-charts
-    alias: monitoring-stack
+# dependencies:
+#   - name: kube-prometheus-stack
+#     version: 30.0.1
+#     repository: https://prometheus-community.github.io/helm-charts
+#     alias: monitoring-stack

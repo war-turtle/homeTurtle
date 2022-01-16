@@ -1,8 +1,4 @@
-monitoring-stack:
-  namespaceOverride: "monitoring"
-  grafana:
-    namespaceOverride: "monitoring"
-  kube-state-metrics:
-    namespaceOverride: "monitoring"
-  prometheus-node-exporter:
-    namespaceOverride: "monitoring"
+namespaces:
+  monitoringNamespace: "monitoring"
+  dnsNamespace: "dns"
+  ingressNamespace: "ingress"
