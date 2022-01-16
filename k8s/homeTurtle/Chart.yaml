@@ -1,6 +1,0 @@
-apiVersion: v2
-name: homeTurtle
-description: A Helm chart for maintaining my home server
-type: application
-version: 0.1.0
-appVersion: "0.1.0"
