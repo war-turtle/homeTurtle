@@ -1,4 +1,4 @@
 namespaces:
-  monitoringNamespace: "monitoring"
   dnsNamespace: "dns"
-  ingressNamespace: "ingress"
+
+dataDirectory: "/home/turtle/App/data"
